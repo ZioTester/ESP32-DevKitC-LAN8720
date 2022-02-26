@@ -5,12 +5,12 @@ ESP32-DevKitC-LAN8720
 
 # Indice
 
-* [Informazioni sul progetto](#-Informazioni-sul-progetto)  
+* [Informazioni sul progetto](#Informazioni-sul-progetto)  
 * Esempio con [Platform.io - VS Code](./examples/PlatformIO/)
 * Esempio con [Arduino IDE](./examples/ArduinoIDE/)
 * Esempio con [ESPHome & Home Assistant](./examples/ESPHome/)
-* [Board Pinouts](#-Board-Pinouts)  
-* [3D Model](#-3D-Model)  
+* [Board Pinouts](#Board-Pinouts)  
+* [3D Model](#3D-Model)  
 
 <table><tr><td><img src="images/board-ethernet-08-01.jpg" width="400"></td><td><img src="images/board-ethernet-02-01.jpg" width="400"></td><td><img src="images/board-ethernet-01-01.jpg" width="400"></td></tr></table>
 
@@ -92,9 +92,9 @@ Rilasceremo a breve una nostra versione di box realizzato per la board.</td><td>
 
 # Indice
 
-* [Informazioni sul progetto](#-Informazioni-sul-progetto)  
+* [Informazioni sul progetto](#Informazioni-sul-progetto)  
 * Esempio con [Platform.io - VS Code](./examples/PlatformIO/)
 * Esempio con [Arduino IDE](./examples/ArduinoIDE/)
 * Esempio con [ESPHome & Home Assistant](./examples/ESPHome/)
-* [Board Pinouts](#-Board-Pinouts)  
-* [3D Model](#-3D-Model)  
+* [Board Pinouts](#Board-Pinouts)  
+* [3D Model](#3D-Model)  
