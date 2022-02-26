@@ -1,8 +1,22 @@
-# ESP32-DevKitC-LAN8720
-
+ESP32-DevKitC-LAN8720
+===
 ### (ENGLISH VERSION COMING SOON!)
+---
 
-### Informazioni sul progetto
+# Indice
+
+* [Informazioni sul progetto](#-Informazioni-sul-progetto)  
+* Esempio con [Platform.io - VS Code](./examples/PlatformIO/)
+* Esempio con [Arduino IDE](./examples/ArduinoIDE/)
+* Esempio con [ESPHome & Home Assistant](./examples/ESPHome/)
+* [Board Pinouts](#-Board-Pinouts)  
+* [3D Model](#-3D-Model)  
+
+<table><tr><td><img src="images/board-ethernet-08-01.jpg" width="400"></td><td><img src="images/board-ethernet-02-01.jpg" width="400"></td><td><img src="images/board-ethernet-01-01.jpg" width="400"></td></tr></table>
+
+---
+
+# Informazioni sul progetto
 
 L'esp32 è un controller fantastico per l'utilizzo in ambito IOT, ma per applicazioni messe in produzione H24 (anche se non di vitale importanza) ci sono aspetti che spesso vengono sottovalutati (o neanche presi in considerazione) come la stabilità, l'efficienza e la garanzia della connessione di rete. 
  
@@ -19,8 +33,11 @@ Dopo circa un anno di vari test, abbiamo quindi realizzato una board plug&play c
 
 ### ESP32-DevKitC-LAN8720 aggiunge all'ESP32 DevKitC le funzionalità ethernet tramite il chip LAN8720 ed espone i pin inutilizzati su una comoda morsettiera (screw terminal) alla quale collegare le periferiche.
 
-<table><tr><td><img src="images/board-ethernet-08-01.jpg" width="400"></td><td><img src="images/board-ethernet-02-01.jpg" width="400"></td><td><img src="images/board-ethernet-01-01.jpg" width="400"></td></tr></table>
+---
+
+# Board Pinouts
 <center>
+
 <table><tr><td valign="top"><img src="images/screw-terminal.jpg"></td><td valign="top">
 
 ### Lo screw terminal sulla sinistra espone i pin inutilizzati dal chip ethernet, che possono essere utilizzati nel tuo progetto e per alimentare la board.
@@ -61,20 +78,23 @@ I35
  </td></tr></table>
 </center>
 
-### Codice di esempio VS Code - Platform.io
+---
 
-* Clonare il progetto da github
-* aprire la directory PlatformIO con VS Code
-* connettere l'esp alla board ed alla rete e flashare
+<table><tr><td valign="top">
 
-### Codice di esempio Arduino IDE
+# 3D Model
 
-* Clonare il progetto da github
-* aprire ESP32-DevKitC-LAN8729.ino della directory arduino
-* connettere l'esp alla board ed alla rete e flashare
-
-### Modello 3D
-
-<table><tr><td><img src="3D-model/fusion360.jpg" width="1000"></td><td valign="top">Nella directory 3D-model è disponibile il file .step che può essere importato in software per il disegno 3d come fusion 360, per chi volesse realizzare un box da stampare in 3d. 
+Nella directory 3D-model è disponibile il file .step che può essere importato in software per il disegno 3d come fusion 360, per chi volesse realizzare un box da stampare in 3d. 
  
-Rilasceremo a breve una nostra versione di box realizzato per la board.</td></tr></table>
+Rilasceremo a breve una nostra versione di box realizzato per la board.</td><td><img src="3D-model/3D-model.jpg" width="1000"></td></tr></table>
+
+---
+
+# Indice
+
+* [Informazioni sul progetto](#-Informazioni-sul-progetto)  
+* Esempio con [Platform.io - VS Code](./examples/PlatformIO/)
+* Esempio con [Arduino IDE](./examples/ArduinoIDE/)
+* Esempio con [ESPHome & Home Assistant](./examples/ESPHome/)
+* [Board Pinouts](#-Board-Pinouts)  
+* [3D Model](#-3D-Model)  

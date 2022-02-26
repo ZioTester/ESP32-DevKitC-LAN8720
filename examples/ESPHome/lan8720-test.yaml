@@ -1,0 +1,53 @@
+#ESP32-DevKitC-LAN8720
+#by Ziotester.it 
+#More info on https://github.com/ZioTester/ESP32-DevKitC-LAN8720
+
+esphome:
+  name: lan8720-test
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+logger:
+
+api:
+  password: !secret api_password
+
+ota:
+  password: !secret ota_password
+  
+ethernet:
+  type: LAN8720
+  mdc_pin: GPIO23
+  mdio_pin: GPIO18
+  power_pin: GPIO12 
+  clk_mode: GPIO0_IN
+  phy_addr: 1
+
+# Optional manual IP (comment for DHCP)
+  manual_ip:
+    static_ip: 192.168.1.30
+    gateway: 192.168.1.1
+    subnet: 255.255.255.0
+    dns1: 8.8.8.8
+    dns2: 8.8.4.4
+
+# switch entity example
+switch:
+  - platform: gpio
+    name: "Lan relay"
+    pin: 32
+    id: lan_relay
+
+# sensors example
+sensor:
+  - platform: dht
+    pin: 33
+    temperature:
+      name: temperatura_lan
+    humidity:
+      name: umidita_lan
+    update_interval: 30s
+    model: DHT22
