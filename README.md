@@ -85,8 +85,9 @@ I35
 # 3D Model
 
 Nella [directory 3D-model](./3D-model/) è disponibile il file .step che può essere importato in software per il disegno 3d come fusion 360, per chi volesse realizzare un case da stampare in 3d. 
- 
-Rilasceremo a breve una nostra versione di case realizzato per la board.</td><td><img src="3D-model/3D-model.jpg" width="800"></td></tr></table>
+
+Il file din-rail.stl può essere stampato per agganciare la board ad una guida din.
+</td><td><img src="3D-model/3D-model.jpg" width="800"></td></tr></table>
 
 ---
 
