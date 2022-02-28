@@ -10,7 +10,8 @@ ESP32-DevKitC-LAN8720
 * Esempio con [Platform.io - VS Code](./examples/PlatformIO/)
 * Esempio con [Arduino IDE](./examples/ArduinoIDE/)
 * Esempio con [ESPHome & Home Assistant](./examples/ESPHome/) 
-* [3D Model](#3D-Model)  
+* [3D Model](#3D-Model)
+* Amazon Store https://www.amazon.it/dp/B09TKWTLTC
 
 <table><tr><td><img src="images/board-ethernet-08-01.jpg" width="400"></td><td><img src="images/board-ethernet-02-01.jpg" width="400"></td><td><img src="images/board-ethernet-01-01.jpg" width="400"></td></tr></table>
 
@@ -99,3 +100,4 @@ Il file din-rail.stl può essere stampato per agganciare la board ad una guida d
 * Esempio con [Arduino IDE](./examples/ArduinoIDE/)
 * Esempio con [ESPHome & Home Assistant](./examples/ESPHome/) 
 * [3D Model](#3D-Model)  
+* Amazon Store https://www.amazon.it/dp/B09TKWTLTC
