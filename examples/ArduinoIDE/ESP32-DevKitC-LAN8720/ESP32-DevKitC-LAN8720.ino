@@ -29,7 +29,11 @@ DO NOT EDIT!
 #define ETH_RXD0_PIN 25
 #define ETH_RXD1_PIN 26
 #define ETH_MODE2_PIN 27
-#define ETH_POWER_PIN 12
+
+// NB: nelle versioni < 1.3 il power pin è il 12
+#define ETH_POWER_PIN 17
+// #define ETH_POWER_PIN 12
+
 #define ETH_ADDR 1
 #define ETH_TYPE ETH_PHY_LAN8720
 #define ETH_CLK_MODE ETH_CLOCK_GPIO0_IN

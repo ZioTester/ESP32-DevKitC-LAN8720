@@ -58,7 +58,7 @@ IO33
 IO14
 IO13
 IO05
-IO17
+IO12 (NB: nelle versioni precedenti la 1.3 è esposto il GPIO17)
 IO16
 IO04
 IO02

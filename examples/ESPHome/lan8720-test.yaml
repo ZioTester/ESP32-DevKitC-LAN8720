@@ -22,7 +22,9 @@ ethernet:
   type: LAN8720
   mdc_pin: GPIO23
   mdio_pin: GPIO18
-  power_pin: GPIO12 
+  # NB: nelle versioni < 1.3 il power pin è il 12
+  power_pin: GPIO17
+  #power_pin: GPIO12
   clk_mode: GPIO0_IN
   phy_addr: 1
 
